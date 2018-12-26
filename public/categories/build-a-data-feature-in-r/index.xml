@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build a Data Feature in R on Optimal Digression</title>
+    <link>/categories/build-a-data-feature-in-r/</link>
+    <description>Recent content in Build a Data Feature in R on Optimal Digression</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/build-a-data-feature-in-r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build something that matters.</title>
+      <link>/post/build-something-that-matters-in-r/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/build-something-that-matters-in-r/</guid>
+      <description>The most important skill of any aspiring data professional is the abillity to make kick butt, automated data features (and ultimately, products).
+This fact has given rise to what I’ll dub here as the “full stack” data scientist. A full stack data scientist is someone comfortable with building the entire data product “circuit” him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,158 @@
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ cd content/
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content[00m$ ls
+[0m[01;34mpost[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content[00m$ cd post/
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content/post]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content/post[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content/post[00m$ ls
+2015-07-23-r-rmarkdown.html  2018-12-14-detecting-time-series-trend-events-in-r.html
+2015-07-23-r-rmarkdown.Rmd   2018-12-14-detecting-time-series-trend-events-in-r.Rmd
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content/post]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content/post[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content/post[00m$ cd ../
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content[00m$ ls
+[0m[01;34mpost[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog/content]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog/content[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog/content[00m$ cd ../
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ [K]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls index.Rmd 
+index.Rmd
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ cat index.Rmd 
+---
+site: blogdown:::blogdown_site
+---
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/
+[0m[01;34mcategories[0m  [01;34mcss[0m  [01;34mimages[0m  index.html  index.xml  [01;34mpage[0m  [01;34mpost[0m  sitemap.xml  [01;34mtags[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls six[Ktema[K[K[K[K[K[K[K[K[Kpublic/sit
+bash: public/sit: No such file or directory
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ public/sitecpublic/siteapublic/sitetpublic/site public/site[C[C[C[C[C[C[C[C[C[C[C[K[K[Kitemap.xml 
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/detecting-time-series-trend-events-in-r/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ cat public/sitemap.xml 
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/detecting-time-series-trend-events-in-r/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/time-series/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ 
