@@ -1,7 +1,7 @@
 ---
-title: Build something that matters.
+title: Build a data feature that matters.
 author: Austin Armstrong
-date: '2018-12-14'
+date: '2018-12-25'
 slug: build-something-that-matters-in-R
 categories: [Build a data feature in R]
 tags: [time series,event detection,regression]
@@ -10,11 +10,30 @@ tags: [time series,event detection,regression]
 
 
 <p><strong>The most important skill of any aspiring data professional is the abillity to make kick butt, automated data features (and ultimately, products).</strong></p>
-<p>This fact has given rise to what I’ll dub here as the “full stack” data scientist. A full stack data scientist is someone comfortable with building the entire data product “circuit” him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce.</p>
-<p>In this 3 part series I will outline my approach &amp; methodology to building a micro service-based data feature that we are using at <a href="https://growatomata.com">Atomata</a> today, for work with time series data streams to optimize indoor environments for cannabis cultivation. I hope the process can be informative at all steps, but feel free to skip around. I’ll be writing to this mini-series over the upcoming weeks as time permits.</p>
+<p>This fact has given rise to what I’ll dub here as the “full stack” data scientist. A full stack data scientist is someone comfortable with building the entire data product “circuit” him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)</p>
+<p>Some have argued to me that data scientists should not worry about being such generalists in their careers. While one may eventually become a specialist in a subset of data science over his/her career, very (<strong>VERY</strong>) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:</p>
+<blockquote>
+<blockquote>
+<p>How am I getting this d<em>data</em>in (&amp; where does it come from)?<br />
+-&gt; What <em>language</em> is the best to write part x in?<br />
+Which a<em>lgorithm </em>will you pick to tackle the problem?<br />
+-&gt; What <em>data structures</em> play best with my problem?<br />
+How can I improve the quality of the output via <em>statistical insight</em> &amp;&amp;/|| <em>machine learning</em>?<br />
+How performant is my solution, and where might <em>bottlenecks</em> arise?<br />
+What other <em>services &amp; messaging queues</em> will I need to interact with?<br />
+What <em>database</em> will be best to persist data to?<br />
+How should I structure my <em>schema</em>?<br />
+How is this going to be <em>deployed</em>, and how can it be most <em>effectively monitored</em>?<br />
+What <em>tests</em> do I need to build to make sure this will hold up against the test of time?<br />
+Is what i did <em>readable</em>? Can others easily <em>use, understanding, &amp; interact</em> with my code?<br />
+How does this solution s<em>cale?</em></p>
+</blockquote>
+</blockquote>
+<p>The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better &amp; more maintainable products/services as you learn how to best fit your piece of the puzzle in with everyone else’s. The goal of this mini-series is to go over my approach &amp; methodology to building a micro service-based data feature that we are using at <a href="https://growatomata.com">Atomata</a> today, for work with time series data streams to optimize indoor environments for cannabis cultivation.</p>
+<p>The service itself is written in R, with a sprinkle of Node.js here, a dash of Redis there, and a whole whopping serving of Docker(Compose). I hope the process can be informative at all steps, but feel free to skip around. I’ll be writing to this mini-series over the upcoming weeks as time permits.</p>
 <ol style="list-style-type: decimal">
 <li><strong>Define your motivation, do your research (&amp; eat your vegetables).</strong></li>
-<li><strong>Getting in bed with an algorithm &amp; take charge</strong></li>
+<li><strong>Getting in bed with an algorithm &amp; taking charge</strong></li>
 <li><strong>Take it live!</strong></li>
 </ol>
 <center>
