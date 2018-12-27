@@ -1,0 +1,39 @@
+---
+title: Define your motivation, do your research (& eat your vegetables).
+author: Austin Armstrong
+date: '2018-12-26'
+slug: define-your-motivation-do-your-research-eat-your-vegetables
+categories: []
+tags: []
+draft: true
+---
+
+# So you want to build a data product.
+
+Before you even try to touch your favorite text editor (hopefully [Spacemacs 👽](http://spacemacs.org/)), you've got some work to do. Back when I worked in a biochemistry lab, and an experiment failed, my PI would always point out that often times spending a day in the library can save weeks in the lab (and a fat stack of money). This axiom sits true in any field where there is something worth doing.  
+
+So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It's good to have a coherent trail of thoughts as you venture into building anything sizable. My rule of thumb:  
+
+> If it's going to take longer than half a day, hit the notebook to plan.  
+
+Step 1 in any plan of mine, state the objective, and **WHY** you want to get there. Maybe you're just picking up a Asana task your manager handed you, but it can become the most significant tool in a programmers belt to understand the intent behind the task. If your not excited enough by the idea that your hacking will physically move the needle of the organization you're working for, at least take solace in the fact that any domain knowledge you pick up might reveal the hints for an even more accurate, efficient, & downright elegant solution.  
+
+# Defining your motivation (the why)
+
+When I say define your motivation, I don't mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you're pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself). 
+
+## Audit the pain
+
+At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person & over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.  
+
+> Sometimes, you need to put on your detective hat & get your hands dirty to learn what needs to be built in the first place. 
+
+## Create the gain
+
+On the other side ofthe coin, you 
+
+
+# Doing your research
+
+
+# Eating your vegtables

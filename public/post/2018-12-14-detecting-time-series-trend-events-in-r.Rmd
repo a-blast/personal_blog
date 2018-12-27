@@ -27,7 +27,7 @@ Some have argued to me that data scientists should not worry about being such ge
  - Is what i did *readable*? Can others easily *use, understanding, & interact* with my code?  
  - How does this solution *scale*?  
 
-The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better & more maintainable products/services as you learn how to best fit your piece of the puzzle in with everyone else's. The goal of this mini-series is to go over my approach & methodology to building a micro service-based data feature that we are using at [Atomata](https://growatomata.com) today, for work with time series data streams to optimize indoor environments for cannabis cultivation.  
+The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better & more maintainable products/services as you learn how to best fit your piece of the puzzle in with those of the team that may have been built 10 years ago, 20 years in the future, or any other point in between (shout out to the democratization of knowledge 🐝) The goal of this mini-series is to go over my approach & methodology to building a micro service-based data feature that we are using at [Atomata](https://growatomata.com) today, for work with time series data streams to optimize indoor environments for cannabis cultivation.  
 
 The service itself is written in R, with a sprinkle of Node.js here, a dash of Redis there, and a whole whopping serving of Docker(Compose). I hope the process can be informative at all steps, but feel free to skip around. I'll be writing to this mini-series over the upcoming weeks as time permits.  
 
@@ -35,4 +35,5 @@ The service itself is written in R, with a sprinkle of Node.js here, a dash of R
 2. **Getting in bed with an algorithm & taking charge**
 3. **Take it live!**
 
-<center>*(Feat. R & Friends.)*</center>
+<center>*(Feat. R & Friends.)*</center>  
+<center></br>🖖</center>

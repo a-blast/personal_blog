@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Optimal Digression</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on Optimal Digression</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Dec 2018 20:35:31 -0700</lastBuildDate>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hi, I&#39;m Austin.</title>
+      <link>/about/2018-12-26-about/</link>
+      <pubDate>Sun, 09 Dec 2018 20:35:31 -0700</pubDate>
+      
+      <guid>/about/2018-12-26-about/</guid>
+      <description> TEST Nice to finally meet you, it’s been too long. First, thank you for taking the time to read some of the things I’ve written.
+Second, here are a few things about me.
+ I’m a biochemist turned computer nerd from the great urban fold of Denver, CO.    </description>
+    </item>
+    
+  </channel>
+</rss>
