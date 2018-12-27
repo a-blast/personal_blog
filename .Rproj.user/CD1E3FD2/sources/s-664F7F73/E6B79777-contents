@@ -11,21 +11,21 @@ tags: [time series,event detection,regression]
 
 This fact has given rise to what I'll dub here as the "full stack" data scientist. A full stack data scientist is someone comfortable with building the entire data product "circuit" him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)
 
-Some have argued to me that data scientists should not worry about being such generalists in their careers. While one may eventually become a specialist in a subset of data science over his/her career, very (**VERY**) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:
-  
->>How am I getting this d*data*in (& where does it come from)?  
--> What *language* is the best to write part x in?  
->Which a*lgorithm *will you pick to tackle the problem?  
--> What *data structures* play best with my problem?  
-> How can I improve the quality of the output via *statistical insight* &&/|| *machine learning*?  
-> How performant is my solution, and where might *bottlenecks* arise?  
-> What other *services & messaging queues* will I need to interact with?  
-> What *database* will be best to persist data to?  
-> How should I structure my *schema*?  
-> How is this going to be *deployed*, and how can it be most *effectively monitored*?  
-> What *tests* do I need to build to make sure this will hold up against the test of time?  
-> Is what i did *readable*? Can others easily *use, understanding, & interact* with my code?  
->How does this solution s*cale?*  
+Some have argued to me that data scientists should not worry about being such generalists in their careers. While one may eventually become a specialist in a subset of data science over his/her career, very (**VERY**) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:  
+
+>- How am I getting this *data* in (& where does it come from)?  
+ - What *language* is the best to write part x in?  
+ - Which *algorithm* will you pick to tackle the problem?  
+ - What *data structures* play best with my problem?  
+ - How can I improve the quality of the output via *statistical insight* &&/|| *machine learning*?  
+ - How performant is my solution, and where might *bottlenecks* arise?  
+ - What other *services & messaging queues* will I need to interact with?    
+ - What *database* will be best to persist data to?  
+ - How should I structure my *schema*?  
+ - How is this going to be *deployed*, and how can it be most *effectively monitored*?  
+ - What *tests* do I need to build to make sure this will hold up against the test of time?  
+ - Is what i did *readable*? Can others easily *use, understanding, & interact* with my code?  
+ - How does this solution *scale*?  
 
 The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better & more maintainable products/services as you learn how to best fit your piece of the puzzle in with everyone else's. The goal of this mini-series is to go over my approach & methodology to building a micro service-based data feature that we are using at [Atomata](https://growatomata.com) today, for work with time series data streams to optimize indoor environments for cannabis cultivation.  
 
