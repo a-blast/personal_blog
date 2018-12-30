@@ -1,5 +1,5 @@
 theme = "tale-hugo"
-baseURL = "https://optimaldigression.com/"
+baseURL = "https://www.optimaldigression.com/"
 languageCode = "en-us"
 title = "Optimal Digression"
 
