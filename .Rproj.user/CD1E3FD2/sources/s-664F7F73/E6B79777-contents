@@ -7,10 +7,11 @@ categories: [Build a data feature in R]
 tags: [time series,event detection,regression]
 ---
 
+TEST
+
 **The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).**  
 
 This fact has given rise to what I'll dub here as the "full stack" data scientist. A full stack data scientist is someone comfortable with building the entire data product "circuit" him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)
-
 
 The truth is, in most positions, you wont have the capicity or expectations to build the entire data product yourself. Large teams of capable staticians, developers, & engineers make this possible. However while one may eventually become a specialist in a subset of data science over his/her career, very (**VERY**) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:  
 
@@ -41,7 +42,7 @@ I hope the process can be informative at all steps, but feel free to skip around
 2. **On building a path for a pilgrimage.**  
 3. **Getting cozy with an algorithm.**  
 4. **Tuning exotic instruments to play pretty music.**  
-5. **Waterproofing your deck
+5. **Waterproofing your deck**
 6. **Take it live!**
 
 <center>*(Feat. R & Friends.)*</center>  
