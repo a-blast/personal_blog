@@ -325,3 +325,260 @@ remote: Resolving deltas:   0% (0/23)   [Kremote: Resolving deltas:   4% (1/23
 To https://github.com/a-blast/personal_blog.git
    e301086..9c9d3fe  master -> master
 ]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git push origin mastercommit -m "Update title error3git add ."add .[Kpush origin masteradd .[K
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git add .push origin mastercommit -m "Update title error3git add ."
+[master 79d020e] Update title error3git add .
+ 20 files changed, 66 insertions(+), 22 deletions(-)
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git commit -m "Update title error3git add ."add .[Kpush origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': a-v^[[3~^[[3~^[[3~                blast
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://a-blast@github.com': 
+Counting objects: 37, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/36)   Compressing objects:   5% (2/36)   Compressing objects:   8% (3/36)   Compressing objects:  11% (4/36)   Compressing objects:  13% (5/36)   Compressing objects:  16% (6/36)   Compressing objects:  19% (7/36)   Compressing objects:  22% (8/36)   Compressing objects:  25% (9/36)   Compressing objects:  27% (10/36)   Compressing objects:  30% (11/36)   Compressing objects:  33% (12/36)   Compressing objects:  36% (13/36)   Compressing objects:  38% (14/36)   Compressing objects:  41% (15/36)   Compressing objects:  44% (16/36)   Compressing objects:  47% (17/36)   Compressing objects:  50% (18/36)   Compressing objects:  52% (19/36)   Compressing objects:  55% (20/36)   Compressing objects:  58% (21/36)   Compressing objects:  61% (22/36)   Compressing objects:  63% (23/36)   Compressing objects:  66% (24/36)   Compressing objects:  69% (25/36)   Compressing objects:  72% (26/36)   Compressing objects:  75% (27/36)   Compressing objects:  77% (28/36)   Compressing objects:  80% (29/36)   Compressing objects:  83% (30/36)   Compressing objects:  86% (31/36)   Compressing objects:  88% (32/36)   Compressing objects:  91% (33/36)   Compressing objects:  94% (34/36)   Compressing objects:  97% (35/36)   Compressing objects: 100% (36/36)   Compressing objects: 100% (36/36), done.
+Writing objects:   2% (1/37)   Writing objects:   5% (2/37)   Writing objects:   8% (3/37)   Writing objects:  10% (4/37)   Writing objects:  13% (5/37)   Writing objects:  16% (6/37)   Writing objects:  18% (7/37)   Writing objects:  21% (8/37)   Writing objects:  24% (9/37)   Writing objects:  27% (10/37)   Writing objects:  29% (11/37)   Writing objects:  32% (12/37)   Writing objects:  35% (13/37)   Writing objects:  37% (14/37)   Writing objects:  40% (15/37)   Writing objects:  43% (16/37)   Writing objects:  45% (17/37)   Writing objects:  48% (18/37)   Writing objects:  51% (19/37)   Writing objects:  54% (20/37)   Writing objects:  56% (21/37)   Writing objects:  59% (22/37)   Writing objects:  62% (23/37)   Writing objects:  64% (24/37)   Writing objects:  67% (25/37)   Writing objects:  70% (26/37)   Writing objects:  72% (27/37)   Writing objects:  75% (28/37)   Writing objects:  78% (29/37)   Writing objects:  81% (30/37)   Writing objects:  83% (31/37)   Writing objects:  86% (32/37)   Writing objects:  89% (33/37)   Writing objects:  91% (34/37)   Writing objects:  94% (35/37)   Writing objects:  97% (36/37)   Writing objects: 100% (37/37)   Writing objects: 100% (37/37), 9.16 KiB | 0 bytes/s, done.
+Total 37 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/23)   [Kremote: Resolving deltas:   4% (1/23)   [Kremote: Resolving deltas:   8% (2/23)   [Kremote: Resolving deltas:  13% (3/23)   [Kremote: Resolving deltas:  17% (4/23)   [Kremote: Resolving deltas:  21% (5/23)   [Kremote: Resolving deltas:  26% (6/23)   [Kremote: Resolving deltas:  30% (7/23)   [Kremote: Resolving deltas:  34% (8/23)   [Kremote: Resolving deltas:  39% (9/23)   [Kremote: Resolving deltas:  43% (10/23)   [Kremote: Resolving deltas:  47% (11/23)   [Kremote: Resolving deltas:  52% (12/23)   [Kremote: Resolving deltas:  60% (14/23)   [Kremote: Resolving deltas:  65% (15/23)   [Kremote: Resolving deltas:  69% (16/23)   [Kremote: Resolving deltas:  73% (17/23)   [Kremote: Resolving deltas:  82% (19/23)   [Kremote: Resolving deltas:  86% (20/23)   [Kremote: Resolving deltas:  91% (21/23)   [Kremote: Resolving deltas:  95% (22/23)   [Kremote: Resolving deltas: 100% (23/23)   [Kremote: Resolving deltas: 100% (23/23), completed with 21 local objects.[K
+To https://github.com/a-blast/personal_blog.git
+   9c9d3fe..79d020e  master -> master
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls content/
+about.md  post/     
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls content/post/2018-12-
+2018-12-14-detecting-time-series-trend-events-in-r.html
+2018-12-14-detecting-time-series-trend-events-in-r.Rmd
+2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.html
+2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.Rmd
+2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.html
+2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.Rmd
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls content/post/2018-12-
+2018-12-14-detecting-time-series-trend-events-in-r.html
+2018-12-14-detecting-time-series-trend-events-in-r.Rmd
+2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.html
+2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.Rmd
+2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.html
+2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.Rmd
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls content/post/2018-12-[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/
+2018-12-26-about/ cs/               index.html        page/             tags/             
+about/            css/              index.xml         post/             
+categories/       images/           js/               sitemap.xml       
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/p
+page/ post/ 
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/post/
+2015-07-23-r-rmarkdown/
+2015-07-23-r-rmarkdown_files/
+2015-07-23-r-rmarkdown.Rmd
+2018-12-14-detecting-time-series-trend-events-in-r.Rmd
+2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.Rmd
+2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.Rmd
+build-something-that-matters-in-r/
+define-your-motivation-do-your-research-eat-your-vegetables/
+detecting-time-series-trend-events-in-r/
+--More--[K]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/post/^C
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ lsgit push origin masterls[K[Kls public/post/build-something-that-matters-in-r/index.html 
+blogdown_blog.Rproj  content/             index.Rmd            resources/           static/
+config.toml          .git/                public/              .Rproj.user/         themes/
+]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/post/build-something-that-matters-in-r/index.html 
+public/post/build-something-that-matters-in-r/index.html
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls public/post/build-something-that-matters-in-r/index.html [1P[1P[1@c[1@a[1@t
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Build a data feature that matters. &middot; Optimal Digression
+		</title>
+	
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Optimal Digression" />
+		
+		
+
+	</head>
+	
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">Optimal Digression</h2>
+				</a>
+				<ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Austin Armstrong
+        <br>
+        <span>on&nbsp;</span><time datetime="2018-12-25 00:00:00 &#43;0000 UTC">December 25, 2018</time>
+</div>
+		<h1 class="post-title">Build a data feature that matters.</h1>
+<div class="post-line"></div>
+
+
+		
+
+		
+
+
+<p>TEST</p>
+<p><strong>The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).</strong></p>
+<p>This fact has given rise to what I’ll dub here as the “full stack” data scientist. A full stack data scientist is someone comfortable with building the entire data product “circuit” him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)</p>
+<p>The truth is, in most positions, you wont have the capicity or expectations to build the entire data product yourself. Large teams of capable staticians, developers, &amp; engineers make this possible. However while one may eventually become a specialist in a subset of data science over his/her career, very (<strong>VERY</strong>) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:</p>
+<blockquote>
+<ul>
+<li><strong>Why does this need to be built in the first place?</strong><br />
+</li>
+<li>Who are the <em>stakeholders</em> in this service/product/feature?</li>
+<li>How am I getting this <em>data</em> in (&amp; where does it come from)?<br />
+</li>
+<li>What other <em>services &amp; messaging queues</em> will I need to interact with?<br />
+</li>
+<li>What <em>language</em> is the best to write part x in?<br />
+</li>
+<li>Which <em>algorithm</em> will you pick to tackle the problem?<br />
+</li>
+<li>What <em>data structures</em> play best with my problem?<br />
+</li>
+<li>What <em>database</em> will be best to persist data to?<br />
+</li>
+<li>How should I structure my <em>schema</em>?<br />
+</li>
+<li>How can I improve the quality of the output via <em>statistical insight</em> &amp;&amp;/|| <em>machine learning</em>?<br />
+</li>
+<li>How performant is my solution, and where might <em>bottlenecks</em> arise?<br />
+</li>
+<li>How is this going to be <em>deployed</em>, and how can it be most <em>effectively monitored</em>?<br />
+</li>
+<li>What <em>tests</em> do I need to build to make sure this will hold up against the test of time?<br />
+</li>
+<li>Is what I’ve written <em>readable</em>?<br />
+</li>
+<li>Can others easily <em>use, understand, &amp; interact</em> with my code?<br />
+</li>
+<li>How does this solution <em>scale</em>?</li>
+</ul>
+</blockquote>
+<p>The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better &amp; more maintainable products/services. You gain the knowledge of how to best fit your piece of the puzzle in with those of the team that may have been built 20 years ago, 20+ years in the future, or any other point in between (shout out to the democratization of knowledge 🐝).</p>
+<p>The goal of this series is to go over my approach &amp; methodology to tackling these tricky questions as I have come to understand them. These posts will be loosely tied around my own experiences, word collages (in paragraph form!) of info, tips, tricks, &amp; facts I’ve picked up along my ride, and a case study of building a micro service-based data feature that we are using at <a href="https://growatomata.com">Atomata</a> today for work with time series data streams to optimize indoor environments for cannabis cultivation.</p>
+<p>I hope the process can be informative at all steps, but feel free to skip around. I’ll be writing to this series over the upcoming weeks as time permits, hitting all of the questions posted above.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Define your motivation, do your research (&amp; eat your vegetables).</strong><br />
+</li>
+<li><strong>On building a path for a pilgrimage.</strong><br />
+</li>
+<li><strong>Getting cozy with an algorithm.</strong><br />
+</li>
+<li><strong>Tuning exotic instruments to play pretty music.</strong><br />
+</li>
+<li><strong>Waterproofing your deck</strong></li>
+<li><strong>Take it live!</strong></li>
+</ol>
+<center>
+<em>(Feat. R &amp; Friends.)</em>
+</center>
+<center>
+</br>🖖
+</center>
+
+
+		<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_wOjK3CSAmn" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+	</div>
+
+	<div class="pagination">
+		<a href="/about/" class="left arrow">&#8592;</a>
+		<a href="/post/define-your-motivation-do-your-research-eat-your-vegetables/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        <footer>
+		<span>
+
+        <h4>@ me</h4>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://twitter.com/Au_Arms">
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+            </a>
+        </svg>
+
+        <h4>Connect with me</h4>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://www.linkedin.com/in/a-armstrong/">
+                <path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"/>
+            </a>
+        </svg>
+
+        <h4>Fork me</h4>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://github.com/a-blast">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+            </a>
+        </svg>
+		</span>
+</footer>
+
+    </body>
+</html>
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ cat public/post/build-something-that-matters-in-r/index.html [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push origin mastercommit -m "Update title error3git add ."add .[K
