@@ -155,4 +155,70 @@ bash: public/sit: No such file or directory
     <priority>0</priority>
   </url>
   
-</urlset>]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ 
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ ls
+blogdown_blog.Rproj  config.toml  [0m[01;34mcontent[0m  index.Rmd  [01;34mpublic[0m  [01;34mresources[0m  [01;34mstatic[0m  [01;34mthemes[0m
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git status [K
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/CD1E3FD2/console06/C5E7378D[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/prop/42ACD48[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/prop/A0DEE6B[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/prop/EEBA5AFC[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/72CF363C[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/72CF363C-contents[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/B7B93DB7[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/B7B93DB7-contents[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/E6B79777[m
+	[31mmodified:   .Rproj.user/CD1E3FD2/sources/s-664F7F73/E6B79777-contents[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   config.toml[m
+	[31mmodified:   content/about.md[m
+	[31mmodified:   content/post/2018-12-14-detecting-time-series-trend-events-in-r.Rmd[m
+	[31mmodified:   content/post/2018-12-14-detecting-time-series-trend-events-in-r.html[m
+	[31mmodified:   content/post/2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.Rmd[m
+	[31mmodified:   content/post/2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.html[m
+	[31mmodified:   public/about/index.html[m
+	[31mmodified:   public/categories/build-a-data-feature-in-r/index.html[m
+	[31mmodified:   public/categories/build-a-data-feature-in-r/index.xml[m
+	[31mmodified:   public/css/style.css[m
+	[31mmodified:   public/index.html[m
+	[31mmodified:   public/index.xml[m
+	[31mmodified:   public/post/2018-12-14-detecting-time-series-trend-events-in-r.Rmd[m
+	[31mmodified:   public/post/2018-12-26-define-your-motivation-do-your-research-eat-your-vegetables.Rmd[m
+	[31mmodified:   public/post/build-something-that-matters-in-r/index.html[m
+	[31mmodified:   public/post/define-your-motivation-do-your-research-eat-your-vegetables/index.html[m
+	[31mmodified:   public/post/index.html[m
+	[31mmodified:   public/post/index.xml[m
+	[31mmodified:   public/sitemap.xml[m
+	[31mmodified:   public/tags/event-detection/index.html[m
+	[31mmodified:   public/tags/event-detection/index.xml[m
+	[31mmodified:   public/tags/regression/index.html[m
+	[31mmodified:   public/tags/regression/index.xml[m
+	[31mmodified:   public/tags/time-series/index.html[m
+	[31mmodified:   public/tags/time-series/index.xml[m
+	[31mmodified:   resources/_gen/assets/scss/scss/tale.scss_33d66d0b5f8b04b1d41c1da7ba50ddae.content[m
+	[31mmodified:   themes/tale-hugo/assets/scss/tale/_post.scss[m
+	[31mdeleted:    themes/tale-hugo/layouts/partials/.head.html.swp[m
+	[31mmodified:   themes/tale-hugo/layouts/partials/single/footer.html[m
+	[31mmodified:   themes/tale-hugo/layouts/partials/single/title.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/CD1E3FD2/sources/prop/CF57544E[m
+	[31m.Rproj.user/CD1E3FD2/sources/s-664F7F73/9E68B9F4[m
+	[31m.Rproj.user/CD1E3FD2/sources/s-664F7F73/9E68B9F4-contents[m
+	[31m.Rproj.user/shared/notebooks/602F08F7-2018-12-26-getting-in-bed-with-an-algorithm-taking-charge/[m
+	[31mcontent/post/2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.Rmd[m
+	[31mcontent/post/2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.html[m
+	[31mpublic/post/2018-12-26-getting-in-bed-with-an-algorithm-taking-charge.Rmd[m
+	[31mpublic/post/getting-in-bed-with-an-algorithm-taking-charge/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git pus[K[K[Kcommit -a [K[K[K[K[K[K[K[K[K[Kadd .

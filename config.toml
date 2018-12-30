@@ -1,8 +1,11 @@
 theme = "tale-hugo"
-baseURL = "http://optimaldigression.com/"
+baseURL = "https://optimaldigression.com/"
 languageCode = "en-us"
 title = "Optimal Digression"
 
+googleAnalytics= "UA-131475495-1"
+summaryLength= 30
+disqusShortname= "disqus_wOjK3CSAmn"
 highlightjsVersion = "9.11.0"
 highlightjsCDN = "//cdn.bootcss.com"
 highlightjsLang = ["r", "yaml"]

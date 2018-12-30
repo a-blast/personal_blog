@@ -1,0 +1,10 @@
+---
+title: Getting in bed with an algorithm & taking charge
+author: Austin Armstrong
+date: '2018-12-27'
+slug: getting-in-bed-with-an-algorithm-taking-charge
+categories: []
+tags: []
+---
+
+Once you've 

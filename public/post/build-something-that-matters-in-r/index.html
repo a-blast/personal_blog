@@ -59,12 +59,17 @@
 		
 
 
-<p><strong>The most important skill of any aspiring data professional is the abillity to make kick butt, automated data features (and ultimately, products).</strong></p>
+<p><strong>The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).</strong></p>
 <p>This fact has given rise to what I’ll dub here as the “full stack” data scientist. A full stack data scientist is someone comfortable with building the entire data product “circuit” him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)</p>
-<p>Some have argued to me that data scientists should not worry about being such generalists in their careers. While one may eventually become a specialist in a subset of data science over his/her career, very (<strong>VERY</strong>) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:</p>
+<p>The truth is, in most positions, you wont have the capicity or expectations to build the entire data product yourself. Large teams of capable staticians, developers, &amp; engineers make this possible. However while one may eventually become a specialist in a subset of data science over his/her career, very (<strong>VERY</strong>) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:</p>
 <blockquote>
 <ul>
+<li><strong>Why does this need to be built in the first place?</strong><br />
+</li>
+<li>Who are the <em>stakeholders</em> in this service/product/feature?</li>
 <li>How am I getting this <em>data</em> in (&amp; where does it come from)?<br />
+</li>
+<li>What other <em>services &amp; messaging queues</em> will I need to interact with?<br />
 </li>
 <li>What <em>language</em> is the best to write part x in?<br />
 </li>
@@ -72,30 +77,38 @@
 </li>
 <li>What <em>data structures</em> play best with my problem?<br />
 </li>
-<li>How can I improve the quality of the output via <em>statistical insight</em> &amp;&amp;/|| <em>machine learning</em>?<br />
-</li>
-<li>How performant is my solution, and where might <em>bottlenecks</em> arise?<br />
-</li>
-<li>What other <em>services &amp; messaging queues</em> will I need to interact with?<br />
-</li>
 <li>What <em>database</em> will be best to persist data to?<br />
 </li>
 <li>How should I structure my <em>schema</em>?<br />
+</li>
+<li>How can I improve the quality of the output via <em>statistical insight</em> &amp;&amp;/|| <em>machine learning</em>?<br />
+</li>
+<li>How performant is my solution, and where might <em>bottlenecks</em> arise?<br />
 </li>
 <li>How is this going to be <em>deployed</em>, and how can it be most <em>effectively monitored</em>?<br />
 </li>
 <li>What <em>tests</em> do I need to build to make sure this will hold up against the test of time?<br />
 </li>
-<li>Is what i did <em>readable</em>? Can others easily <em>use, understanding, &amp; interact</em> with my code?<br />
+<li>Is what I’ve written <em>readable</em>?<br />
+</li>
+<li>Can others easily <em>use, understand, &amp; interact</em> with my code?<br />
 </li>
 <li>How does this solution <em>scale</em>?</li>
 </ul>
 </blockquote>
-<p>The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better &amp; more maintainable products/services as you learn how to best fit your piece of the puzzle in with those of the team that may have been built 10 years ago, 20 years in the future, or any other point in between (shout out to the democratization of knowledge 🐝) The goal of this mini-series is to go over my approach &amp; methodology to building a micro service-based data feature that we are using at <a href="https://growatomata.com">Atomata</a> today, for work with time series data streams to optimize indoor environments for cannabis cultivation.</p>
-<p>The service itself is written in R, with a sprinkle of Node.js here, a dash of Redis there, and a whole whopping serving of Docker(Compose). I hope the process can be informative at all steps, but feel free to skip around. I’ll be writing to this mini-series over the upcoming weeks as time permits.</p>
+<p>The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better &amp; more maintainable products/services. You gain the knowledge of how to best fit your piece of the puzzle in with those of the team that may have been built 20 years ago, 20+ years in the future, or any other point in between (shout out to the democratization of knowledge 🐝).</p>
+<p>The goal of this series is to go over my approach &amp; methodology to tackling these tricky questions as I have come to understand them. These posts will be loosely tied around my own experiences, word collages (in paragraph form!) of info, tips, tricks, &amp; facts I’ve picked up along my ride, and a case study of building a micro service-based data feature that we are using at <a href="https://growatomata.com">Atomata</a> today for work with time series data streams to optimize indoor environments for cannabis cultivation.</p>
+<p>I hope the process can be informative at all steps, but feel free to skip around. I’ll be writing to this series over the upcoming weeks as time permits, hitting all of the questions posted above.</p>
 <ol style="list-style-type: decimal">
-<li><strong>Define your motivation, do your research (&amp; eat your vegetables).</strong></li>
-<li><strong>Getting in bed with an algorithm &amp; taking charge</strong></li>
+<li><strong>Define your motivation, do your research (&amp; eat your vegetables).</strong><br />
+</li>
+<li><strong>On building a path for a pilgrimage.</strong><br />
+</li>
+<li><strong>Getting cozy with an algorithm.</strong><br />
+</li>
+<li><strong>Tuning exotic instruments to play pretty music.</strong><br />
+</li>
+<li><strong>Waterproofing your deck</strong></li>
 <li><strong>Take it live!</strong></li>
 </ol>
 <center>
@@ -106,7 +119,28 @@
 </center>
 
 
-		
+		<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_wOjK3CSAmn" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 	</div>
 
 	<div class="pagination">
