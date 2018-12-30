@@ -7,14 +7,14 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E6B79777",
-    "lastKnownWriteTime" : 1546138889,
-    "last_content_update" : 1546138889371,
+    "lastKnownWriteTime" : 1546141240,
+    "last_content_update" : 1546141240595,
     "path" : "~/Documents/personal/blogdown_blog/content/post/2018-12-14-detecting-time-series-trend-events-in-r.Rmd",
     "project_path" : "content/post/2018-12-14-detecting-time-series-trend-events-in-r.Rmd",
     "properties" : {
-        "cursorPosition" : "13,496",
+        "cursorPosition" : "11,572",
         "docOutlineVisible" : "0",
-        "marks" : "<:9,567\n>:9,567",
+        "marks" : "<:15,47\n>:16,46",
         "scrollLine" : "0"
     },
     "relative_order" : 3,
