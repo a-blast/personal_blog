@@ -6,8 +6,7 @@ slug: build-a-data-product
 categories: [Build a data feature in R]
 tags: [time series,event detection,regression]
 ---
-
-> **TL;DR:** To become maximally effective, all data scientists should know the flow of producing & maintaining a data product to better understand how to fit their peice into the puzzle.  
+> **TL;DR:** To become maximally effective, all data scientists should know the flow of producing & maintaining a data product to better understand how to fit their piece into the puzzle.  
 
 > Links to other posts on this series can be found at the bottom of this page (as they are written).  
 
@@ -15,7 +14,7 @@ tags: [time series,event detection,regression]
 
 This fact has given rise to what I'll dub here as the "full stack" data scientist. A full stack data scientist is someone comfortable with building the entire data product "circuit" him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)
 
-The truth is, in most positions, you wont have the capicity or expectations to build the entire data product yourself. Large teams of capable staticians, developers, & engineers make this possible. However while one may eventually become a specialist in a subset of data science over his/her career, very (**VERY**) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:  
+The truth is, in most positions, you wont have the capacity or expectations to build the entire data product yourself. Large teams of capable statisticians, developers, & engineers make this possible. However while one may eventually become a specialist in a subset of data science over his/her career, very (**VERY**) few will ever have to conduct all of their work in complete isolation. Nearly every data scientist will work in a team that must co-ordinate their work into complete value-adding services. Thus everyone with hands in a data project should be familiar enough with the core processes to be able to answer general questions like:  
 
 >- **Why does this need to be built in the first place?**  
  - Who are the *stakeholders* in this service/product/feature?
@@ -38,14 +37,14 @@ The ability to speak intelligently about all of these prompts with your colleagu
 
 The goal of this series is to go over my approach & methodology to tackling these tricky questions as I have come to understand them. These posts will be loosely tied around my own experiences, word collages (in paragraph form!) of info, tips, tricks, & facts I've picked up along my ride, and a case study of building a micro service-based data feature that we are using at [Atomata](https://growatomata.com) today for work with time series data streams to optimize indoor environments for cannabis cultivation.  
 
-I hope the process can be informative at all steps, but feel free to skip around. I'll be writing to this series over the upcoming weeks as time permits, hitting all of the questions posted above.  
+I hope the process can be informative at all steps, but feel free to skip around. I'll be writing to this series over the upcoming weeks/months as time permits, hitting all of the questions posted above.  
 
-1. **Define your motivation, do your research (& eat your vegetables).**  
+1. [**Define your motivation, do your research (& eat your vegetables).**](/post/define-your-motivation-do-your-research-eat-your-vegetables/) (Coming soon)  
 2. **On building a path for a pilgrimage.**  
 3. **Getting cozy with an algorithm.**  
 4. **Tuning exotic instruments to play pretty music.**  
 5. **Waterproofing your deck**
-6. **Take it live!**
+6. **Take it live!**  
 
 <center>*(Feat. R & Friends.)*</center>  
 <center></br><h1>🖖</h1></center>

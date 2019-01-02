@@ -2,7 +2,7 @@ theme = "tale-hugo"
 baseURL = "https://www.optimaldigression.com/"
 languageCode = "en-us"
 title = "Optimal Digression"
-
+relativeURLs = true
 googleAnalytics= "UA-131475495-1"
 summaryLength= 30
 disqusShortname= "optimaldigression"

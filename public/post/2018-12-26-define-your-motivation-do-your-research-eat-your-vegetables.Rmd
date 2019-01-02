@@ -10,7 +10,7 @@ draft: true
 
 > **TL;DR:** Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.  
 
-> This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it's full contents [here](https://www.optimaldigression.com/posts/build-something-that-matters-in-r).
+> This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it's full contents [here](/post/build-a-data-product/).
 
 # So you want to build a data product.
 

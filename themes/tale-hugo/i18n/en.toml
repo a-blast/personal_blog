@@ -7,6 +7,9 @@ other = "About"
 [writtenBy]
 other = "Written by"
 
+[build-a-data-product]
+other  = "Build a data product"
+
 [on]
 other = "on"
 
