@@ -8,7 +8,7 @@ tags: []
 draft: true
 ---
 
-> **TL;DR:** Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.
+> **TL;DR:** Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.  
 
 > This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it's full contents [here](https://www.optimaldigression.com/posts/build-something-that-matters-in-r).
 
@@ -16,7 +16,7 @@ draft: true
 
 Before you even try to touch your favorite text editor (hopefully [Spacemacs 👽](http://spacemacs.org/)), you've got some work to do. Back when I worked in a biochemistry lab, and an experiment failed, my PI would always point out that often times spending a day in the library can save weeks in the lab (and a fat stack of money). This axiom sits true in any field where there is something worth doing.  
 
-So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It's good to have a coherent trail of thoughts as you venture into building anything sizable. My rule of thumb:  
+So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It's good to have a coherent trail of thoughts as you venture into building anything sizable (at least try to leave some breadcrumbs so you can pull yourself back into reality if you get pulled down the rabit hole too far while programming). My rule of thumb:  
 
 > If it's going to take longer than half a day, hit the notebook to plan.  
 

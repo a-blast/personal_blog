@@ -1,13 +1,15 @@
 ---
-title: Build a data feature that matters.
+title: Build a data product that matters.
 author: Austin Armstrong
 date: '2018-12-25'
-slug: build-something-that-matters-in-R
+slug: build-a-data-product
 categories: [Build a data feature in R]
 tags: [time series,event detection,regression]
 ---
 
-> **TL;DR:** To become maximally effective, all data scientists should know the flow of producing & maintaining a data product to better understand how to fit their peice into the puzzle.
+> **TL;DR:** To become maximally effective, all data scientists should know the flow of producing & maintaining a data product to better understand how to fit their peice into the puzzle.  
+
+> Links to other posts on this series can be found at the bottom of this page (as they are written).  
 
 **The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).**  
 
