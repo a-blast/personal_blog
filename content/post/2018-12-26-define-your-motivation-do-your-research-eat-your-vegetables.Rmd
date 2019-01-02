@@ -1,5 +1,5 @@
 ---
-title: Define your motivation, do your research
+title: Define your motivation, do your research (& eat your vegetables)
 author: Austin Armstrong
 date: '2018-12-26'
 slug: define-your-motivation-do-your-research-eat-your-vegetables
@@ -8,7 +8,9 @@ tags: []
 draft: true
 ---
 
-<center>This post is part of a multi-part series on how to build
+> **TL;DR:** Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.
+
+> This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it's full contents [here](https://www.optimaldigression.com/posts/build-something-that-matters-in-r).
 
 # So you want to build a data product.
 
@@ -25,6 +27,8 @@ Step 1 in any plan of mine, state the objective, and **WHY** you want to get the
 When I say define your motivation, I don't mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you're pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself). 
 
 Pulling a page from buisness development lingo, products are generally developed & leveraged to minimize a pain or maximize the gain of it's target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️). 
+
+This notion opens the first doors of the discovery period of development, which I'll refer to here as "**Auditing the pain**" & "**Creating the gain**". You should think about both to create the foundation on which you will build any product or feature.  
 
 ## Auditing the pain
 

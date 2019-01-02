@@ -7,6 +7,8 @@ categories: [Build a data feature in R]
 tags: [time series,event detection,regression]
 ---
 
+> **TL;DR:** To become maximally effective, all data scientists should know the flow of producing & maintaining a data product to better understand how to fit their peice into the puzzle.
+
 **The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).**  
 
 This fact has given rise to what I'll dub here as the "full stack" data scientist. A full stack data scientist is someone comfortable with building the entire data product "circuit" him/herself. At a high level, this entails a command of comfort in building data pipelines, synthesizing readable code-bases, employing relevant statistical/machine learning paradigms, and interacting with an appropriate database that can empower the delivery of value that you ultimately want to produce. (Perhaps even a touch of front end web development if it fits your problem space 😀)
@@ -30,7 +32,7 @@ The truth is, in most positions, you wont have the capicity or expectations to b
  - Can others easily *use, understand, & interact* with my code?  
  - How does this solution *scale*?  
 
-The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better & more maintainable products/services. You gain the knowledge of how to best fit your piece of the puzzle in with those of the team that may have been built 20 years ago, 20+ years in the future, or any other point in between (shout out to the democratization of knowledge 🐝).  
+The ability to speak intelligently about all of these prompts with your colleagues will not only make you a more effective developer, but will also inevitably lead to better & more maintainable products/services. You gain the knowledge of how to best fit your piece of the puzzle in with those of the team that may have been built 20 years ago, 20+ years in the future, or any other point in between.  
 
 The goal of this series is to go over my approach & methodology to tackling these tricky questions as I have come to understand them. These posts will be loosely tied around my own experiences, word collages (in paragraph form!) of info, tips, tricks, & facts I've picked up along my ride, and a case study of building a micro service-based data feature that we are using at [Atomata](https://growatomata.com) today for work with time series data streams to optimize indoor environments for cannabis cultivation.  
 
@@ -44,4 +46,4 @@ I hope the process can be informative at all steps, but feel free to skip around
 6. **Take it live!**
 
 <center>*(Feat. R & Friends.)*</center>  
-<center></br>🖖</center>
+<center></br><h1>🖖</h1></center>

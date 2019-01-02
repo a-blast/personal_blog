@@ -12,13 +12,12 @@
     
     
     <item>
-      <title>Define your motivation, do your research</title>
+      <title>Define your motivation, do your research (&amp; eat your vegetables)</title>
       <link>/post/define-your-motivation-do-your-research-eat-your-vegetables/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/define-your-motivation-do-your-research-eat-your-vegetables/</guid>
-      <description>This post is part of a multi-part series on how to build
-So you want to build a data product. Before you even try to touch your favorite text editor (hopefully Spacemacs 👽), you’ve got some work to do.</description>
+      <description>TL;DR: Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.</description>
     </item>
     
     <item>
@@ -27,8 +26,7 @@ So you want to build a data product. Before you even try to touch your favorite 
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/build-something-that-matters-in-r/</guid>
-      <description>The most important skill of any aspiring data professional is the ability to make kick butt, automated data features (and ultimately, products).
-This fact has given rise to what I’ll dub here as the “full stack” data scientist.</description>
+      <description>TL;DR: To become maximally effective, all data scientists should know the flow of producing &amp;amp; maintaining a data product to better understand how to fit their peice into the puzzle.</description>
     </item>
     
     <item>
