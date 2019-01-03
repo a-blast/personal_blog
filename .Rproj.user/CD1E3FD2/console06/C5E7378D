@@ -889,3 +889,18 @@ To https://github.com/a-blast/personal_blog.git
    f1d6c7c..b742753  master -> master
 ]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git add .
 ]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git add .commit -a -m "new post" && git push origin master
+[master e79c623] new post
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': a-blast
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://a-blast@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 1.02 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/a-blast/personal_blog.git
+   b742753..e79c623  master -> master
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git commit -a -m "new post" && git push origin master
