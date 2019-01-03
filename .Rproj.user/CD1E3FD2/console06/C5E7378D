@@ -863,3 +863,13 @@ remote: Resolving deltas:   0% (0/24)   [Kremote: Resolving deltas:   8% (2/24
 To https://github.com/a-blast/personal_blog.git
    0e44beb..f1d6c7c  master -> master
 ]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git commit -a -m "new post" && git push origin master
+[master 8f906f4] new post
+ 11 files changed, 72 insertions(+), 9 deletions(-)
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': a-blat
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://a-blat@github.com': ^C^C^C
+
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/a-blast/personal_blog.git/'
+]0;/home/aarmstrong/Documents/personal/blogdown_blog]0;aarmstrong@blast: ~/Documents/personal/blogdown_blog[01;32maarmstrong@blast[00m:[01;34m~/Documents/personal/blogdown_blog[00m$ git commit -a -m "new post" && git push origin master
