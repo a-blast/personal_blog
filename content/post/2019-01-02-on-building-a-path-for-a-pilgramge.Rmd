@@ -6,4 +6,13 @@ slug: on-building-a-path-for-a-pilgramge
 categories:
   - Build a data feature in R
 tags: []
+draft: true
 ---
+
+> **TL;DR:** If your building something that will be used, chances are you want it to work. Now is the time to think about infrastructure.  
+
+> This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it's full contents [here](/post/build-a-data-product/).
+
+# Sometimes, how > what.
+
+In 
