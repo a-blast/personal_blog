@@ -1,6 +1,7 @@
 {
-    "cursorPosition" : "45,29",
+    "cursorPosition" : "42,60",
     "docOutlineVisible" : "0",
-    "marks" : "<:40,0\n>:40,0",
+    "ignored_words" : "br\n",
+    "marks" : "<:51,10\n>:51,11",
     "scrollLine" : "30"
 }

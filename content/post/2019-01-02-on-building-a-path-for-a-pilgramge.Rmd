@@ -1,0 +1,9 @@
+---
+title: On building a path for a pilgramge
+author: Austin Armstrong
+date: '2019-01-03'
+slug: on-building-a-path-for-a-pilgramge
+categories:
+  - Build a data feature in R
+tags: []
+---

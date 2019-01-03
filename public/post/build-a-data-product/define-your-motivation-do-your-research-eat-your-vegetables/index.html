@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Define your motivation, do your research (&amp; eat your vegetables) &middot; Optimal Digression
+		</title>
+	
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Optimal Digression" />
+		
+		
+
+	</head>
+	
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">Optimal Digression</h2>
+				</a>
+				<ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/">Posts</a></li>
+    <li><a href="/post/build-a-data-product">Build a data product</a></li>
+</ul>
+
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Austin Armstrong
+        <br>
+        <span>on&nbsp;</span><time datetime="2018-12-26 00:00:00 &#43;0000 UTC">December 26, 2018</time>
+</div>
+		<h1 class="post-title">Define your motivation, do your research (&amp; eat your vegetables)</h1>
+<div class="post-line"></div>
+
+
+		
+
+		
+
+
+<blockquote>
+<p><strong>TL;DR:</strong> Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.</p>
+</blockquote>
+<blockquote>
+<p>This post is part of a multi-part series on how to build a data product. Learn more about the series and check out it’s full contents <a href="https://www.optimaldigression.com/posts/build-something-that-matters-in-r">here</a>.</p>
+</blockquote>
+<div id="so-you-want-to-build-a-data-product." class="section level1">
+<h1>So you want to build a data product.</h1>
+<p>Before you even try to touch your favorite text editor (hopefully <a href="http://spacemacs.org/">Spacemacs 👽</a>), you’ve got some work to do. Back when I worked in a biochemistry lab, and an experiment failed, my PI would always point out that often times spending a day in the library can save weeks in the lab (and a fat stack of money). This axiom sits true in any field where there is something worth doing.</p>
+<p>So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It’s good to have a coherent trail of thoughts as you venture into building anything sizable (at least try to leave some breadcrumbs so you can pull yourself back into reality if you get pulled down the rabit hole too far while programming). My rule of thumb:</p>
+<blockquote>
+<p>If it’s going to take longer than half a day, hit the notebook to plan.</p>
+</blockquote>
+<p>Step 1 in any plan of mine, state the objective, and <strong>WHY</strong> you want to get there. Maybe you’re just picking up a Asana task your manager handed you, or maybe you’re buckling down for the plunge into the pothole-filled road of entrepreneurship. Either way it can become the most significant tool in a programmer’s belt to understand the intent behind the task. If your not excited enough by the idea that your hacking will physically move the needle of the organization you’re working for or creating, at least take solace in the fact that any domain knowledge you pick up might reveal the hints for an even more accurate, efficient, &amp; downright elegant solution.</p>
+</div>
+<div id="defining-your-motivation-the-why" class="section level1">
+<h1>Defining your motivation (the why)</h1>
+<p>When I say define your motivation, I don’t mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you’re pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself).</p>
+<p>Pulling a page from buisness development lingo, products are generally developed &amp; leveraged to minimize a pain or maximize the gain of it’s target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️).</p>
+<p>This notion opens the first doors of the discovery period of development, which I’ll refer to here as “<strong>Auditing the pain</strong>” &amp; “<strong>Creating the gain</strong>”. You should think about both to create the foundation on which you will build any product or feature.</p>
+<div id="auditing-the-pain" class="section level2">
+<h2>Auditing the pain</h2>
+<p>At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person &amp; over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.</p>
+<blockquote>
+<p>Sometimes, you need to put on your detective hat &amp; get your hands dirty to learn what needs to be built in the first place.</p>
+</blockquote>
+<p>Here, the service I was developing was motivated by solving a direct pain of the company. Investigative &amp; automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage.</p>
+</div>
+<div id="creating-the-gain" class="section level2">
+<h2>Creating the gain</h2>
+<p>On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter &amp; optimizer for agriculture, all fall into this catagory.</p>
+</div>
+</div>
+<div id="doing-your-research" class="section level1">
+<h1>Doing your research</h1>
+<p>As the almighty <a href="https://www.mitpressjournals.org/doi/10.1162/neco.1996.8.7.1341"><em>no free lunch thorem</em></a> illustrates:</p>
+<blockquote>
+<p>Any two optimization<sup>✝</sup> algorithms are equivalent when their performace is averaged across all possible problems<sup>✝✝</sup></p>
+</blockquote>
+<div id="substitute-optimization-for-machine-learning-if-you-want-to-keep-our-discussion-to-a-subset-of-optimization-algorithms.-this-even-includes-the-widely-forgoten-method-of-uniform-stochastic-election-also-known-as-random-guessing." class="section level6">
+<h6><sup>✝</sup>Substitute optimization for machine learning if you want to keep our discussion to a subset of optimization algorithms. </br> <sup>✝✝</sup> This even includes the widely forgoten method of uniform stochastic election, also known as random guessing.</h6>
+<p>Thus it becomes <strong>mathamatically provable</strong> that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space.</p>
+<p>But</p>
+</div>
+</div>
+<div id="eating-your-vegtables" class="section level1">
+<h1>Eating your vegtables</h1>
+<p>Sometimes</p>
+</div>
+
+
+		<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "optimaldigression" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+	</div>
+
+	<div class="pagination">
+		<a href="/post/build-a-data-product/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        <footer>
+		<span>
+
+        <h4>@ me</h4>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://twitter.com/Au_Arms">
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+            </a>
+        </svg>
+
+        <h4>Connect with me</h4>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://www.linkedin.com/in/a-armstrong/">
+                <path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"/>
+            </a>
+        </svg>
+
+        <h4>Fork me</h4>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <a xlink:href="https://github.com/a-blast">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+            </a>
+        </svg>
+		</span>
+</footer>
+
+    </body>
+</html>

@@ -3,9 +3,9 @@ title: Define your motivation, do your research (& eat your vegetables)
 author: Austin Armstrong
 date: '2019-01-02'
 slug: define-your-motivation-do-your-research-eat-your-vegetables
-categories: []
+categories:
+  - Build a data feature in R
 tags: []
-draft: true
 ---
 
 > **TL;DR:** Domain knowledge is more important than any code you will write. So become fluent(ish) in the problem space by researching it before you waste your time programing.  
@@ -16,7 +16,7 @@ draft: true
 
 Before you even try to touch your favorite text editor (hopefully [Spacemacs 👽](http://spacemacs.org/)), you've got some work to do. Back when I worked in a biochemistry lab, and an experiment failed, my PI would always point out that often times spending a day in the library can save weeks in the lab (and a fat stack of money). This axiom sits true in any field where there is something worth doing.  
 
-So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It's good to have a coherent trail of thoughts as you venture into building anything sizable (at least try to leave some breadcrumbs so you can pull yourself back into reality if you get pulled down the rabit hole too far while programming). My rule of thumb:  
+So lets hit the library. But before you start surfing over their free WiFi, take a seat in front of the whiteboard. It's good to have a coherent trail of thoughts as you venture into building anything sizable (at least try to leave some breadcrumbs so you can pull yourself back into reality if you get pulled down the rabbit hole too far while programming). My rule of thumb:  
 
 > If it's going to take longer than half a day, hit the notebook to plan.  
 
@@ -26,26 +26,25 @@ Step 1 in any plan of mine, state the objective, and **WHY** you want to get the
 
 When I say define your motivation, I don't mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you're pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself). 
 
-Pulling a page from buisness development lingo, products are generally developed & leveraged to minimize a pain or maximize a gain (often times, both) of it's target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️). 
+Pulling a page from business development lingo, products are generally developed & leveraged to minimize a pain or maximize a gain (often times, both) of it's target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️). 
 
-Broadly, for [Atomata](https://www.growatomata.com), the motivation was to create a data product that let any indoor farmer grow like a pro with our hardware. In our case, the *pain* was that of our clients. Indoor farming is often low margin & unsustainable economically and ecologically. Even lucrative cash crops like cannabis are feeling the squeeze to become competitive as the industry becomes ever more saturated. The *gain* was to make farms more effecient by the optimaization of input costs (labour, nutrients, energy, etc.) and output revenue (crop quantity & quality) by getting data driven practices involved.  
+Broadly, for [Atomata](https://www.growatomata.com), the motivation was to create a data product that let any indoor farmer grow like a pro with our hardware. In our case, the *pain* was that of our clients. Indoor farming is often low margin & unsustainable economically and ecologically. Even lucrative cash crops like cannabis are feeling the squeeze to become competitive as the industry becomes ever more saturated. The *gain* was to make farms more efficient by the optimization of input costs (labor, nutrients, energy, etc.) and output revenue (crop quantity & quality) by getting data driven practices involved.  
 
-For my most recent data feature, the motivation was to abstract sensor data into informative alerts to our clients. The *pains* here are that sensor logs, numbers, and pretty graphs mean very little to stakeholders in a farming operation because no-one knows how to meaningfully interpret them. Also, sensors can be noisy and some fluctuations may be visually misleading. The *gains* are to be able to alert farmers when enviornmental or growth metrics have changed significantly, and to be able to perform "feature extraction" on sensor streams for future statistcal/ machine learning analysis.   
+For my most recent data feature, the motivation was to abstract sensor data into informative alerts to our clients. The *pains* here are that sensor logs, numbers, and pretty graphs mean very little to stakeholders in a farming operation because no-one knows how to meaningfully interpret them. Also, sensors can be noisy and some fluctuations may be visually misleading. The *gains* are to be able to alert farmers when environmental or growth metrics have changed significantly, and to be able to perform "feature extraction" on sensor streams for future statistical/ machine learning analysis.   
 
-These are examples at a higher and lower level of some of my own development motivations. However, at this stage your motivations will likely be flawed, and thats okay. We are currently developing a *testable hypothesis*. We will come back and refine it, sure enough. But now its time to test it with research.
+These are examples at a higher and lower level of some of my own development motivations. However, at this stage your motivations will likely be flawed, and thats okay. We are currently developing a *testable hypothesis*. We likely will come back and refine it, sure enough. But now its time to test it with research.
 
 # Doing your research
 
-As the almighty [*no free lunch thorem*](https://www.mitpressjournals.org/doi/10.1162/neco.1996.8.7.1341) illustrates:  
+As the almighty [*no free lunch theorem*](https://www.mitpressjournals.org/doi/10.1162/neco.1996.8.7.1341) illustrates:  
   
-> Any two optimization^✝^ algorithms are equivalent when their performace is averaged across all possible problems^✝✝^  
+> Any two optimization^✝^ algorithms are equivalent when their performance is averaged across all possible problems^✝✝^  
 
-###### ^✝^Substitute optimization for machine learning if you want to keep our discussion to a subset of optimization algorithms. </br>  ^✝✝^ This even includes the widely forgoten method of uniform stochastic election, also known as random guessing.
+###### ^✝^Substitute optimization for machine learning if you want to keep our discussion to a subset of optimization algorithms. </br>  ^✝✝^ This even includes the widely forgotten method of uniform stochastic election, also known as random guessing.
 
-Thus it becomes **mathamatically provable** that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space. This is where research comes into play. But I dont yet mean diving into the literature of your favorite tech stack, throwing all of your cares to the wind. Or even diving into technical research papers to pick an optimaization algorithm.  
+Thus it becomes **mathematically provable** that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space. This is where research comes into play. But I don't yet mean diving into the literature of your favorite tech stack, throwing all of your cares to the wind. Or even diving into technical research papers to pick an optimization algorithm. Perhaps unfortunately for the antisocial among us, its time to get some human contact and survey what people actually need. Was your hypothesis on motivation correct? How about the pains? The gains?   
 
-First lets build off of the motivation we've just built around pains & gains and open the first doors of the discovery period of development. I'll refer to these doors here as "**Auditing the pain(s)**" & "**Creating the gain(s)**". It's rarely a either/or situation, so you should think about both to create the foundation on which you will build any product or feature. 
-
+First lets build off of the motivation we've just built around pains & gains and open the first doors of the discovery period of development. I'll refer to these doors here as "**Auditing the pain(s)**" & "**Creating the gain(s)**". Since it's rarely a either/or situation, you should think about both to create the foundation on which you will build any product or feature. I'll give some examples of times I've done each.
 
 ### Auditing the pain
 
@@ -53,21 +52,35 @@ At a previous job I was tasked to dive into warehouse data inconsistencies. So I
 
 > Sometimes, you need to put on your detective hat & get your hands dirty to learn what needs to be built in the first place. 
 
-Here, the service I was developing was motivated by solving a direct pain of the company. Investigative & automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage. 
+Here, the service I was developing was motivated by solving a direct pain of the company. Investigative & automation based motivators broadly fall into this category, and you will generally be best off speaking with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage.  
+
+At Atomata, we spent time emailing, cold calling, and social media DM'ing our potential clients, asking them about their frustrations in their current processes & most significant overhead costs. We also dug into literature on the economics & ecological impact of our industry as well as published surveys of our target market and their behaviors. This sort of customer contact is fundamental to any sustainable business, and I am by no means the only one preaching its practice.
 
 ### Creating the gain
 
-On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like  creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter & optimizer for agriculture, all fall into this catagory.
+How are you going to improve a current process in place? At Atomata, the main improvement our clients are interested in is gross profit. At most businesses this is the obvious gain (hence the term "the bottom line"). Its best to be specific, so we can do better. Since costs fall into the "pain" category for the sake of this discussion, we dissected the main revenue generating processes in the farm. These come down to quantity and quality of the crop output. Thus we made sure that if a feature we were building didn't adequately serve a pain, it had to serve a gain. This governing process has served us very well in our product development pathways.  
+
+At Atomata, our initial assumption and motivation was that if the stakeholders in these farms could at least have access to the data of their operation they could be more informed and be able to derive value immediately from our product. We were wrong in this first assumption, which brings me to the next step in this process...  
 
 
+# Eating your vegetables  
+### (Or, refining your motivation)
+You've come far. but I've got bad news. It's likely your initial assumptions that directed your motivation are now wrong after research, or could at use use a touch of refinement. Perhaps the pain was not as large as you though, or maybe its actually quite multivariate and you need to employ some decisively strategic thinking on where you will initially throw your effort. In our case, our initial assumption was wrong. The solution space was deeper than we thought. This realization lead us to envision and ideate the new products we would have to build to minimize our targeted pains and amplify the gains, and decisively & strategically implement them with our limited resources.
 
+> The more you refine your motivation, the better product you will ultimately write.
 
+This is the pre-programing, "social" optimization step. Even though were not using any rigorous mathematics to justify our position (yet), we can still borrow a tool like stochastic gradient descent to motivate our discussion with stakeholders. While you may be zero-ing in on what you believe to be the ultimate pain/gain/etc in your research, remember to take a step back and occasionally ask questions outside your main train of thought. You may be surprised with what you uncover.
 
+# In conclusion
 
-But 
+The steps and general practices I've outlined above will rarely fall to you as a data scientist in industry. However, they will be steps that your project/product manager are employing to better lead and position the team. If this is your case, refrain from hiding in the tech abstraction and make an effort to reach out to those among your team who are actively doing this outreach. 
 
-# Eating your vegtables
+Applied data science, unfortunately, is not a pure science. It is intermixed with philosophy, psychology, economics, and sociology. Its okay if you don't have a mastery in the social sciences (I sure don't), but you have no excuse to hold yourself back from taking the first steps of learning, and ultimately mastering, your problem space.
 
-Sometimes 
+I'd love to hear your process for planning a product or feature before you touch code in the comments section below!
+
+Until next time,  
+
+🖖
 
 
