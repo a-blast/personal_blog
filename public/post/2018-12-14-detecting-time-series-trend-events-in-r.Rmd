@@ -39,12 +39,14 @@ The goal of this series is to go over my approach & methodology to tackling thes
 
 I hope the process can be informative at all steps, but feel free to skip around. I'll be writing to this series over the upcoming weeks/months as time permits, hitting all of the questions posted above.  
 
-1. [**Define your motivation, do your research (& eat your vegetables).**](/)<!--(post/define-your-motivation-do-your-research-eat-your-vegetables/) -->(Coming soon)  
+1. [**Do your research, define your motivation (& eat your vegetables).**]()<!--(/post/define-your-motivation-do-your-research-eat-your-vegetables/)--> (Coming soon)  
 2. **On building a path for a pilgrimage.**  
 3. **Getting cozy with an algorithm.**  
 4. **Tuning exotic instruments to play pretty music.**  
-5. **Waterproofing your deck**
+5. **Waterproofing your stack**
 6. **Take it live!**  
+
+I love feedback, so feel free to post any ideas, criticisms, or even requests for additional subjects below.
 
 <center>*(Feat. R & Friends.)*</center>  
 <center></br><h1>🖖</h1></center>

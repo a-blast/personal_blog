@@ -62,7 +62,7 @@ if (!doNotTrack) {
     <span>Written by</span>
         Austin Armstrong
         <br>
-        <span>on&nbsp;</span><time datetime="2018-12-26 00:00:00 &#43;0000 UTC">December 26, 2018</time>
+        <span>on&nbsp;</span><time datetime="2019-01-02 00:00:00 &#43;0000 UTC">January 2, 2019</time>
 </div>
 		<h1 class="post-title">Define your motivation, do your research (&amp; eat your vegetables)</h1>
 <div class="post-line"></div>
@@ -91,20 +91,10 @@ if (!doNotTrack) {
 <div id="defining-your-motivation-the-why" class="section level1">
 <h1>Defining your motivation (the why)</h1>
 <p>When I say define your motivation, I don’t mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you’re pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself).</p>
-<p>Pulling a page from buisness development lingo, products are generally developed &amp; leveraged to minimize a pain or maximize the gain of it’s target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️).</p>
-<p>This notion opens the first doors of the discovery period of development, which I’ll refer to here as “<strong>Auditing the pain</strong>” &amp; “<strong>Creating the gain</strong>”. You should think about both to create the foundation on which you will build any product or feature.</p>
-<div id="auditing-the-pain" class="section level2">
-<h2>Auditing the pain</h2>
-<p>At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person &amp; over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.</p>
-<blockquote>
-<p>Sometimes, you need to put on your detective hat &amp; get your hands dirty to learn what needs to be built in the first place.</p>
-</blockquote>
-<p>Here, the service I was developing was motivated by solving a direct pain of the company. Investigative &amp; automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage.</p>
-</div>
-<div id="creating-the-gain" class="section level2">
-<h2>Creating the gain</h2>
-<p>On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter &amp; optimizer for agriculture, all fall into this catagory.</p>
-</div>
+<p>Pulling a page from buisness development lingo, products are generally developed &amp; leveraged to minimize a pain or maximize a gain (often times, both) of it’s target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️).</p>
+<p>Broadly, for <a href="https://www.growatomata.com">Atomata</a>, the motivation was to create a data product that let any indoor farmer grow like a pro with our hardware. In our case, the <em>pain</em> was that of our clients. Indoor farming is often low margin &amp; unsustainable economically and ecologically. Even lucrative cash crops like cannabis are feeling the squeeze to become competitive as the industry becomes ever more saturated. The <em>gain</em> was to make farms more effecient by the optimaization of input costs (labour, nutrients, energy, etc.) and output revenue (crop quantity &amp; quality) by getting data driven practices involved.</p>
+<p>For my most recent data feature, the motivation was to abstract sensor data into informative alerts to our clients. The <em>pains</em> here are that sensor logs, numbers, and pretty graphs mean very little to stakeholders in a farming operation because no-one knows how to meaningfully interpret them. Also, sensors can be noisy and some fluctuations may be visually misleading. The <em>gains</em> are to be able to alert farmers when enviornmental or growth metrics have changed significantly, and to be able to perform “feature extraction” on sensor streams for future statistcal/ machine learning analysis.</p>
+<p>These are examples at a higher and lower level of some of my own development motivations. However, at this stage your motivations will likely be flawed, and thats okay. We are currently developing a <em>testable hypothesis</em>. We will come back and refine it, sure enough. But now its time to test it with research.</p>
 </div>
 <div id="doing-your-research" class="section level1">
 <h1>Doing your research</h1>
@@ -114,7 +104,20 @@ if (!doNotTrack) {
 </blockquote>
 <div id="substitute-optimization-for-machine-learning-if-you-want-to-keep-our-discussion-to-a-subset-of-optimization-algorithms.-this-even-includes-the-widely-forgoten-method-of-uniform-stochastic-election-also-known-as-random-guessing." class="section level6">
 <h6><sup>✝</sup>Substitute optimization for machine learning if you want to keep our discussion to a subset of optimization algorithms. </br> <sup>✝✝</sup> This even includes the widely forgoten method of uniform stochastic election, also known as random guessing.</h6>
-<p>Thus it becomes <strong>mathamatically provable</strong> that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space.</p>
+<p>Thus it becomes <strong>mathamatically provable</strong> that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space. This is where research comes into play. But I dont yet mean diving into the literature of your favorite tech stack, throwing all of your cares to the wind. Or even diving into technical research papers to pick an optimaization algorithm.</p>
+<p>First lets build off of the motivation we’ve just built around pains &amp; gains and open the first doors of the discovery period of development. I’ll refer to these doors here as “<strong>Auditing the pain(s)</strong>” &amp; “<strong>Creating the gain(s)</strong>”. It’s rarely a either/or situation, so you should think about both to create the foundation on which you will build any product or feature.</p>
+</div>
+<div id="auditing-the-pain" class="section level3">
+<h3>Auditing the pain</h3>
+<p>At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person &amp; over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.</p>
+<blockquote>
+<p>Sometimes, you need to put on your detective hat &amp; get your hands dirty to learn what needs to be built in the first place.</p>
+</blockquote>
+<p>Here, the service I was developing was motivated by solving a direct pain of the company. Investigative &amp; automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage.</p>
+</div>
+<div id="creating-the-gain" class="section level3">
+<h3>Creating the gain</h3>
+<p>On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter &amp; optimizer for agriculture, all fall into this catagory.</p>
 <p>But</p>
 </div>
 </div>

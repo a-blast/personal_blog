@@ -1,7 +1,7 @@
 ---
 title: Define your motivation, do your research (& eat your vegetables)
 author: Austin Armstrong
-date: '2018-12-26'
+date: '2019-01-02'
 slug: define-your-motivation-do-your-research-eat-your-vegetables
 categories: []
 tags: []
@@ -26,23 +26,13 @@ Step 1 in any plan of mine, state the objective, and **WHY** you want to get the
 
 When I say define your motivation, I don't mean write down how motivated you are to build this product on a scale of 1-10. You can save that for after work, while you're pondering the future of your career. I mean why is this a significant problem, why is this a difficult problem, perhaps why has this problem yet to be solved, or why solving this problem will move the needle for the company (or yourself). 
 
-Pulling a page from buisness development lingo, products are generally developed & leveraged to minimize a pain or maximize the gain of it's target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️). 
+Pulling a page from buisness development lingo, products are generally developed & leveraged to minimize a pain or maximize a gain (often times, both) of it's target consumer/stakeholders. This should come to no surprise, even for developers (at least those who are veterans of the agile process ⛑️). 
 
-This notion opens the first doors of the discovery period of development, which I'll refer to here as "**Auditing the pain**" & "**Creating the gain**". You should think about both to create the foundation on which you will build any product or feature.  
+Broadly, for [Atomata](https://www.growatomata.com), the motivation was to create a data product that let any indoor farmer grow like a pro with our hardware. In our case, the *pain* was that of our clients. Indoor farming is often low margin & unsustainable economically and ecologically. Even lucrative cash crops like cannabis are feeling the squeeze to become competitive as the industry becomes ever more saturated. The *gain* was to make farms more effecient by the optimaization of input costs (labour, nutrients, energy, etc.) and output revenue (crop quantity & quality) by getting data driven practices involved.  
 
-## Auditing the pain
+For my most recent data feature, the motivation was to abstract sensor data into informative alerts to our clients. The *pains* here are that sensor logs, numbers, and pretty graphs mean very little to stakeholders in a farming operation because no-one knows how to meaningfully interpret them. Also, sensors can be noisy and some fluctuations may be visually misleading. The *gains* are to be able to alert farmers when enviornmental or growth metrics have changed significantly, and to be able to perform "feature extraction" on sensor streams for future statistcal/ machine learning analysis.   
 
-At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person & over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.  
-
-> Sometimes, you need to put on your detective hat & get your hands dirty to learn what needs to be built in the first place. 
-
-Here, the service I was developing was motivated by solving a direct pain of the company. Investigative & automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage. 
-
-## Creating the gain
-
-On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like  creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter & optimizer for agriculture, all fall into this catagory.
-
-
+These are examples at a higher and lower level of some of my own development motivations. However, at this stage your motivations will likely be flawed, and thats okay. We are currently developing a *testable hypothesis*. We will come back and refine it, sure enough. But now its time to test it with research.
 
 # Doing your research
 
@@ -52,7 +42,27 @@ As the almighty [*no free lunch thorem*](https://www.mitpressjournals.org/doi/10
 
 ###### ^✝^Substitute optimization for machine learning if you want to keep our discussion to a subset of optimization algorithms. </br>  ^✝✝^ This even includes the widely forgoten method of uniform stochastic election, also known as random guessing.
 
-Thus it becomes **mathamatically provable** that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space.
+Thus it becomes **mathamatically provable** that setting out to build a successful model, service, feature, or product is highly dependent on your a-priori understanding of the structure of the problem space. This is where research comes into play. But I dont yet mean diving into the literature of your favorite tech stack, throwing all of your cares to the wind. Or even diving into technical research papers to pick an optimaization algorithm.  
+
+First lets build off of the motivation we've just built around pains & gains and open the first doors of the discovery period of development. I'll refer to these doors here as "**Auditing the pain(s)**" & "**Creating the gain(s)**". It's rarely a either/or situation, so you should think about both to create the foundation on which you will build any product or feature. 
+
+
+### Auditing the pain
+
+At a previous job I was tasked to dive into warehouse data inconsistencies. So I watched warehouse training videos, took a virtual tour of the warehouse in question, and talked to many people who have been to the location or work there in person & over e-mail. From here I was able to map out many possible avenues and make automated models to check several aspects of warehouse performance.  
+
+> Sometimes, you need to put on your detective hat & get your hands dirty to learn what needs to be built in the first place. 
+
+Here, the service I was developing was motivated by solving a direct pain of the company. Investigative & automation based motivators broadly fall into this catagory, and you will generally be able to speak with key stakeholders and sources of knowledge in these processes. This is something to outline as you begin to reach your researching stage. 
+
+### Creating the gain
+
+On the other side ofthe coin, you may not be solving an pain directly, but rather creating a new venture or product that amplifies the gain of stakeholders in the process. Pursuits like  creating a cutting edge ad-delivery platform, face recognition AI, or in my case a indoor enviornmental interpreter & optimizer for agriculture, all fall into this catagory.
+
+
+
+
+
 
 But 
 
